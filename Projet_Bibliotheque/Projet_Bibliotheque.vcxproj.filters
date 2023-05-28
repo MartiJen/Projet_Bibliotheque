@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{ee674b6b-2165-456e-b1e4-1abd65ec85f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controller">
+      <UniqueIdentifier>{8e711bae-12ad-4873-b014-9145fa5a886f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Model">
+      <UniqueIdentifier>{0a3cab7c-7881-4669-bbbb-aafdcd3ddd90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\View">
+      <UniqueIdentifier>{58710985-60ff-41a9-980a-6b6dc6776aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Model\Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Model\Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src\Controller\Fichiers d%27en-tête">
+      <UniqueIdentifier>{ec764e89-d888-4cca-a7be-1b006eb904d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controller\Fichiers sources">
+      <UniqueIdentifier>{ce4b95ef-246d-4f0c-bb0e-52995f4dec14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\View\Fichiers d%27en-tête">
+      <UniqueIdentifier>{49cab0ed-5bb7-426a-b59e-af088567c4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\View\Fichiers sources">
+      <UniqueIdentifier>{c6089aee-21ed-47fb-b43c-cd3f0e564251}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Projet_Bibliotheque.cpp">
+      <Filter>src\Model\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Auteur.cpp">
+      <Filter>src\Model\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BD.cpp">
+      <Filter>src\Model\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Bibliotheque.cpp">
+      <Filter>src\Model\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Livre.cpp">
+      <Filter>src\Model\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>src\Controller\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuView.cpp">
+      <Filter>src\View\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AjouterLivreView.cpp">
+      <Filter>src\View\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AjouterAuteurView.cpp">
+      <Filter>src\View\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RechAuteurLivresDonnesView.cpp">
+      <Filter>src\View\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RechLivresAuteurDonneView.cpp">
+      <Filter>src\View\Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Livre.h">
+      <Filter>src\Model\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="BD.h">
+      <Filter>src\Model\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Auteur.h">
+      <Filter>src\Model\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Bibliotheque.h">
+      <Filter>src\Model\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>src\Controller\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuView.h">
+      <Filter>src\View\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="AjouterLivreView.h">
+      <Filter>src\View\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="AjouterAuteurView.h">
+      <Filter>src\View\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="RechAuteurLivresDonnesView.h">
+      <Filter>src\View\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="RechLivresAuteurDonneView.h">
+      <Filter>src\View\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿  AjouterAuteurView.cpp
+  AjouterLivreView.cpp
+  Bibliotheque.cpp
+  Controller.cpp
+  MenuView.cpp
+  Projet_Bibliotheque.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(296,1): error C2248: 'Bibliotheque::~Bibliotheque' : impossible d'accéder à private membre déclaré(e) dans la classe 'Bibliotheque'
+C:\Users\jmrtn\Desktop\C++\Projet_Bibliotheque_recrutement\Projet_Bibliotheque\Projet_Bibliotheque\Bibliotheque.h(33): message : le compilateur a généré 'Bibliotheque::~Bibliotheque' ici
+C:\Users\jmrtn\Desktop\C++\Projet_Bibliotheque_recrutement\Projet_Bibliotheque\Projet_Bibliotheque\Bibliotheque.h(11): message : voir la déclaration de 'Bibliotheque'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(2048): message : voir la référence à l'instanciation de la fonction modèle 'void std::_Destroy_in_place<_Ty>(_Ty &) noexcept' en cours de compilation
+          with
+          [
+              _Ty=Bibliotheque
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(2047): message : pendant la compilation de la fonction membre classe modèle 'void std::_Ref_count_obj2<Bibliotheque>::_Destroy(void) noexcept'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(2741): message : voir la référence à l'instanciation classe modèle 'std::_Ref_count_obj2<Bibliotheque>' en cours de compilation
+C:\Users\jmrtn\Desktop\C++\Projet_Bibliotheque_recrutement\Projet_Bibliotheque\Projet_Bibliotheque\Projet_Bibliotheque.cpp(11): message : voir la référence à l'instanciation de la fonction modèle 'std::shared_ptr<Bibliotheque> std::make_shared<Bibliotheque,>(void)' en cours de compilation
+  RechAuteurLivresDonnesView.cpp
+  RechLivresAuteurDonneView.cpp
+  Génération de code en cours...
+C:\Users\jmrtn\Desktop\C++\Projet_Bibliotheque_recrutement\Projet_Bibliotheque\Projet_Bibliotheque\Bibliotheque.cpp(47): warning C4715: 'Bibliotheque::chercherAuteurParNom' : les chemins de contrôle ne retournent pas tous une valeur
